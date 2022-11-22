@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- A-Frame を読み込む -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <!-- AR.js を読み込む -->
@@ -11,8 +11,7 @@
     <title>任意のページタイトル</title>
   </head>
   <body style="margin: 0; overflow: hidden">
-    <a-scene embedded arjs vr-mode-ui="enabled: false;">
-	<a-entity gltf-model="artest_01" rotation="90 0 0"></a-entity>
+    <a-scene embedded arjs vr-mode-ui="enabled: false;"><a-entity gltf-model="#artest_01" rotation="90 90 90"></a-entity>
 	    
       <!-- 3DCGモデルを読み込む -->
       <a-assets>
